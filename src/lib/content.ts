@@ -62,9 +62,10 @@ export const experience: ExperienceItem[] = [
     period: "Jan 2023 — Present",
     place: "Hanoi, Vietnam",
     points: [
-      "Plan and deliver engaging English lessons for classes of 8–15 students aged 3–15, adapting strategies to different ages, learning needs, and proficiency levels.",
-      "Diagnose pronunciation, grammar, and speaking difficulties through targeted feedback and individualized learning support.",
-      "Monitor learner progress and adjust instruction to strengthen accuracy, fluency, and confidence in communication.",
+      "Design and deliver playful, structured English lessons for groups of 8–15 children aged 3–15 — from first alphabet songs to debate-style speaking clubs — adapting every activity to age, temperament, and level.",
+      "Turn shy beginners into confident speakers: diagnose pronunciation and grammar gaps, coach each child individually, and keep progress visible to parents with regular updates.",
+      "Built my own toolkit of games, flashcards, and storytelling routines that hold young learners' attention for a full lesson — and keep families coming back year after year.",
+      "Recognized as Teacher of the Year 2026 for student outcomes and classroom energy.",
     ],
   },
   {
@@ -73,9 +74,10 @@ export const experience: ExperienceItem[] = [
     period: "Jan 2026 — Present",
     place: "Hanoi, Vietnam",
     points: [
-      "Interpreted at the Timor-Leste National Day diplomatic celebration (20 May) and provided interpretation support at the Future of Asia Conference (8 May).",
-      "Support annual diplomatic engagements involving the President and Prime Minister of Timor-Leste — topics include bilateral relations, trade, and diplomatic protocol.",
-      "Work confidently with government delegations and international audiences in high-protocol settings.",
+      "Serve as consecutive interpreter (English ↔ Vietnamese) for diplomatic delegations — most recently at the Timor-Leste National Day celebration (20 May) and the Future of Asia Conference (8 May).",
+      "Interpret at engagements attended by the President and Prime Minister of Timor-Leste, covering bilateral relations, trade, and diplomatic protocol — where one wrong word is not an option.",
+      "Bridge cultures in high-protocol settings: study agendas and background briefs beforehand, keep tone and register exactly right, and stay composed in front of government delegations and international audiences.",
+      "Chosen repeatedly by organizers for discretion, preparation, and calm under pressure.",
     ],
   },
 ];

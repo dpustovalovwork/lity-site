@@ -40,9 +40,9 @@ export default function About() {
               />
               <Image
                 src="/portrait.png"
-                alt="Illustrated portrait of Huong Giang (Lity)"
-                width={1024}
-                height={1280}
+                alt="Photo of Huong Giang (Lity)"
+                width={801}
+                height={798}
                 className="w-full rounded-lg border border-ink/10"
                 priority
               />

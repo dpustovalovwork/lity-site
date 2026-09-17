@@ -115,3 +115,106 @@ export const marqueeItems = [
   "Young Learners",
   "Hanoi, Vietnam",
 ];
+
+export type TeachingPillar = {
+  title: string;
+  text: string;
+};
+
+export const teaching: TeachingPillar[] = [
+  {
+    title: "Play-first lessons",
+    text: "Games, flashcards, songs, and storytelling routines built for a full lesson of attention — every activity matched to the child's age, temperament, and level.",
+  },
+  {
+    title: "Speaking confidence",
+    text: "From first alphabet songs to debate-style speaking clubs: pronunciation coaching and gentle correction turn shy beginners into the loudest, proudest voices in class.",
+  },
+  {
+    title: "Parents in the loop",
+    text: "Regular progress updates and visible milestones, so families always know exactly where their child stands — and what comes next.",
+  },
+  {
+    title: "Small groups, big energy",
+    text: "Classes of 8–15 keep the room lively without losing anyone: each child is seen, heard, and nudged forward at their own pace.",
+  },
+];
+
+export type Service = {
+  title: string;
+  audience: string;
+  points: string[];
+  cta: string;
+  ctaHref: string;
+  featured?: boolean;
+};
+
+export const services: Service[] = [
+  {
+    title: "English for young learners",
+    audience: "Children aged 3–15 · Hanoi",
+    points: [
+      "Playful, structured group lessons (8–15 kids)",
+      "Phonics, vocabulary, speaking clubs",
+      "Regular progress updates for parents",
+      "Trial lesson available",
+    ],
+    cta: "Book a trial lesson",
+    ctaHref:
+      "https://wa.me/84356173056?text=" +
+      encodeURIComponent("Hi Lity! I'd like to book a trial English lesson for my child."),
+    featured: true,
+  },
+  {
+    title: "Consecutive interpretation",
+    audience: "English ↔ Vietnamese · Hanoi & travel",
+    points: [
+      "Diplomatic events, conferences, delegations",
+      "Agendas and briefs studied beforehand",
+      "Discreet, protocol-aware, calm under pressure",
+      "Rates on request",
+    ],
+    cta: "Request availability",
+    ctaHref:
+      "https://wa.me/84356173056?text=" +
+      encodeURIComponent(
+        "Hi Lity! I'd like to request your availability for interpretation (EN-VI)."
+      ),
+  },
+  {
+    title: "Open to full-time roles",
+    audience: "ESL schools · embassies & NGOs · international teams",
+    points: [
+      "ESL teaching positions in Hanoi",
+      "In-house / event interpretation",
+      "Executive assistant with language support",
+      "Based in Hanoi — ready to start",
+    ],
+    cta: "View printable CV",
+    ctaHref: "/cv",
+  },
+];
+
+export type Testimonial = {
+  quote: string;
+  author: string;
+};
+
+// DRAFT quotes — placeholder until Lity provides real testimonials.
+export const testimonials: Testimonial[] = [
+  {
+    quote:
+      "My daughter used to hide behind me when it was time to speak English. Now she corrects my pronunciation at the breakfast table.",
+    author: "Parent of a 7-year-old student",
+  },
+  {
+    quote:
+      "Calm, precise, and always prepared. The delegation's program moved fast, and she never missed a single beat.",
+    author: "Event organizer, diplomatic reception",
+  },
+  {
+    quote:
+      "Giang's class is the highlight of my son's week — he comes home singing new English songs every single Friday.",
+    author: "Parent of a 5-year-old student",
+  },
+];

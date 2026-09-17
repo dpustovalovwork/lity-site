@@ -8,7 +8,7 @@ export default function Skills() {
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal>
           <p className="mb-14 text-[13px] font-bold uppercase tracking-[0.22em] text-lacquer">
-            04 — Languages, skills & education
+            07 — Languages, skills & education
           </p>
         </Reveal>
 
